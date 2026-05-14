@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maze Solver Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Maze Solver Visualizer</h1>
+
+<div class="controls">
+    <button onclick="setMode('start')">Start</button>
+    <button onclick="setMode('goal')">Goal</button>
+    <button onclick="setMode('wall')">Wall</button>
+
+    <select id="algorithm">
+        <option value="astar">A*</option>
+        <option value="bfs">BFS</option>
+    </select>
+
+    <button onclick="solveMaze()">Solve</button>
+    <button onclick="clearGrid()">Clear</button>
+</div>
+
+<div id="grid"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

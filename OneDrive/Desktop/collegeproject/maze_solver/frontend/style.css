@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    text-align:center;
+}
+
+#grid{
+    margin:20px auto;
+    display:grid;
+    grid-template-columns: repeat(20, 25px);
+    width:500px;
+}
+
+.cell{
+    width:25px;
+    height:25px;
+    border:1px solid #ccc;
+}
+
+.wall{
+    background:black;
+}
+
+.start{
+    background:green;
+}
+
+.goal{
+    background:rgb(12, 74, 155);
+}
+
+.path{
+    background:yellow;
+}
+.cell{
+width:25px;
+height:25px;
+border:1px solid #ccc;
+}
+
+.wall{
+background:black;
+}
+
+.start{
+background:green;
+}
+
+.goal{
+background:red;
+}
+
+.path{
+background:yellow;
+}
